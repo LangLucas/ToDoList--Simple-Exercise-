@@ -1,0 +1,117 @@
+body{
+    font-family:Georgia, 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    display: flex;
+    /* background-color: cadetblue; */
+    flex-direction: column;
+    height: 100vh;
+    width: 500px;
+}
+
+
+h1{
+    text-align: center;
+    color:  #294396;
+}
+
+h4{
+    text-align: center;
+    color: #294396;
+}
+
+.inputBox{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+}
+input{
+    font-weight: lighter;
+    margin: 5px;
+    text-decoration: none;
+}
+
+.newTask{
+    text-decoration: none;
+    height: 35px;
+    line-height: 35px;
+    font-size: 18px;
+    text-align: center;
+    border: 1px solid #BBBBBB;
+    font-style: italic;
+    font-weight:lighter;
+}
+
+.add{
+    padding: 0 20px;
+    height: 40px;
+    line-height: 40px;
+    border: none;
+    background: #5E7DE3;
+    border-radius: 3px;
+    font-size: 16px;
+    cursor: pointer;
+    color: #ffff;
+    /* transition: .3s ease all; */
+}
+
+/* ----- */
+.container .mainBox{
+    padding: 0px 40px;
+    display: flex;
+    flex-direction: column;
+    /* background-color: antiquewhite; */
+}
+
+.box{
+    display: flex;
+    flex-direction: row;
+    background-color:lightgreen;
+    margin-bottom: 5px;
+    align-items: center;
+    justify-content: space-between;
+    height: 50px;
+}
+
+.box label{
+    margin-right: 50px;
+}
+
+.divRight button{
+    border: none;
+    background: #ffff;
+    border-radius: 3px;
+    font-family: 'Nanum Myeongjo', serif;
+    cursor: pointer;
+    text-align: center;
+    margin: 4px;
+    padding: 5px;
+    
+}
+
+
+
+
+.trash{
+    color: red;
+    
+}
+
+/* #favorite{
+    color: rgb(255, 255, 95);
+   
+}
+
+#modify{
+    color: #000000;
+    
+} */
+
